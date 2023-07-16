@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "MDK",
+            "includePath": [
+                "${workspaceFolder}/",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/luatos-soc-air001/Libraries/AIR001xx_HAL_Driver/Inc",
+                "${workspaceFolder}/luatos-soc-air001/Libraries/AIR001xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/luatos-soc-air001/Libraries/CMSIS/Include",
+                "${workspaceFolder}/luatos-soc-air001/Libraries/CMSIS/Device/AIR001xx",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "AIR001_DEV",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__STATIC_INLINE"
+            ],
+            "compilerArgs": [
+                "-fexec-charset=UTF8"
+            ]
+        }
+    ],
+    "version": 4
+}
