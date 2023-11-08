@@ -1,4 +1,5 @@
 #include "air001xx_hal.h"
+#include "main.h"
 
 int main(void)
 {
